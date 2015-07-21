@@ -1,3 +1,3 @@
 var displayArt = function(){
-	document.getElementById("art").style.display = "none";
+	document.getElementById("artinfo").style.display = "inline";
 }

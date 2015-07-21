@@ -11,3 +11,7 @@ h1{
 	margin-right: 30px;
 	margin-bottom: 30px;
 }
+
+#artinfo{
+	display: none;
+}
