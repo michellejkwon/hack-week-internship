@@ -1,0 +1,13 @@
+body{
+	background-image: url("buildings.jpg");
+}
+
+h1{
+	color: #4443FF;
+	text-align: center;
+}
+
+#buttons{
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
