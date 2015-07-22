@@ -1,3 +1,4 @@
-var displayArt = function(){
-	document.getElementById("art").style.display = "none";
+var displayText = function(){
+  var text = document.getElementById("example");
+  text.innerHTML = "Girls Who Code is amazing!"
 }
