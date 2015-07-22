@@ -1,33 +1,65 @@
 <html>
 <head>
-	<title>JCM</title>
-	<link rel="stylesheet" type="text/css" href="finalstyle.css">
-	<script src="finalscript.js"></script>
+	<title>Plethora</title> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script src="finalscript.js"></script>
+		<script src="tabletop1.3.4.js"></script>
+
+
 </head>
 
 <style>
+	a{
+		font-size: 20px;
+		margin-right: 100px;
+		color: #7C69E8;
+	}
 </style>
 
 <body>
-
-	<div id="home">
-		<h1 id="Art" onclick="displayArt()">Art</h1>
-		<h1 id="Bus" onclick="displayBus()">Business</h1>
-		<h1 id="CompSci" onclick="displayCompSci()">Computer Science</h1>
-		<h1 id="Edu" onclick="displayEdu()">Education</h1>
-		<h1 id="Eng" onclick="displayEng()">Engineering</h1>
-		<h1 id="Env" onclick="displayEnv()">Environment</h1>
-		<h1 id="Law" onclick="displayLaw()">Law</h1>
-		<h1 id="Media" onclick="displayMedia()">Media</h1>
-		<h1 id="Med" onclick="displayMed()">Medical</h1>
-		<h1 id="Pov" onclick="displayPov()">Poverty</h1>
+	<div data-role="page" id="homepage">
+		<div data-role="menu" id="menu">
+			<a href="#Programs">PROGRAMS</a>
+			<a href="#Internships">INTERNSHIPS</a>
+			<a href="#Resources">RESOURCES</a>
+		</div>
 	</div>
 
-	<div id="artinfo">
-		<a href="https://www.khanacademy.org/">Khan Academy</a>
-		<a href="http://www.incredibleart.org/lessons/high/highlessons.html#grade">Incredible Art</a>
+	<div data-role="page" id="Programs">
+		<div data-role="menu">
+			<a href="#Programs">PROGRAMS</a>
+			<a href="#Internships">INTERNSHIPS</a>
+			<a href="#Resources">RESOURCES</a>
+		</div>
+		<h1>PROGRAMS</h1>
+	</div>
+
+	<div data-role="page" id="Internships">
+		<div data-role="menu">
+			<a href="#Programs">PROGRAMS</a>
+			<a href="#Internships">INTERNSHIPS</a>
+			<a href="#Resources">RESOURCES</a>
+		</div>
+
+		<h1>INTERNSHIPS</h1>
+
+		<p id="example">
+			<img src="http://www.thewomenseye.com/wp-content/uploads/2014/11/girlswhocodegwc-logo.png" alt="GWC" onclick="displayText()">
+		</p>
+
+	</div>
+
+	<div data-role="page" id="Resources">
+		<div data-role="menu">
+			<a href="#Programs">PROGRAMS</a>
+			<a href="#Internships">INTERNSHIPS</a>
+			<a href="#Resources">RESOURCES</a>
+		</div>
+		<h1>RESOURCES</h1>
 	</div>
 
 </body>
-
 </html>
